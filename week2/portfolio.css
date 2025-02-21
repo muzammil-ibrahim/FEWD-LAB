@@ -1,0 +1,32 @@
+h1{
+    text-align: center;
+    color:rgb(63, 58, 4);
+}
+ section {
+    width:80%;
+    margin:20px auto;
+    border-radius: 15px;
+    box-shadow:3px 3px 10px rgb(159, 159, 154);
+    background-color: rgb(244, 238, 188);
+    
+    padding: 20px;
+}
+
+h2{
+    color:red;
+    text-align: center;
+}
+
+li {
+    margin: 8px 0;
+}
+
+a {
+    text-decoration: none;
+    font-size:bold; 
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+}

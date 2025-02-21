@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+    <link rel="stylesheet" href="/week2/feedback.css">
+</head>
+<body>
+    <div>
+    <form>
+        
+    <h2>Give Your Feedback</h2><br><br>
+            <label for="name">Name(optional)</label>
+            <input type="text" id="name" name="name" placeholder="Eg: Muzammil..." ><br><br>
+
+            <label for="email">Email(optional)</label>
+            <input type="email" id="email" name="email" placeholder="Eg: abc@gmail.com" ><br><br>
+
+            <label for="phno">PhoneNumber(optional)</label>
+            <input type="tel" id="phno" name="phno" placeholder="Eg: 9867268737" ><br><br>
+
+            <label for="rating">Rate your experience:</label>
+            <select id="rating" name="rating" required>
+                <option value="">Select</option>
+                <option value="poor">Poor</option>
+                <option value="good">Good</option>
+                <option value="very good">Very Good</option>
+                <option value="excellent">Excellent</option>
+            </select><br><br>
+
+            <label for="feedback">Your Comments:</label><br>
+            <textarea id="feedback" name="feedback" rows="5" cols="50" placeholder="Write your Comments here..."></textarea>
+            <br><br>
+            <label for="question">Any Question?(optional)   </label><br>
+            <textarea id="question" rows="5" cols="50" placeholder="Any question regarding product or service"></textarea>
+            <br><br>
+
+            <button type="submit">Submit</button>
+    </form> 
+    </div>
+</body>
+</html>
